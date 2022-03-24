@@ -1,1 +1,13 @@
-{}
+{
+  "testFiles": "**/*.feature",
+  "defaultCommandTimeout": 30000,
+  "requestTimeout": 20000,
+  "viewportWidth": 1800,
+  "viewportHeight": 1300,
+  "watchForFileChanges": false,
+  "numTestsKeptInMemory": 0,
+  "video": false,
+  "failOnStatusCode": false,
+  "experimentalStudio": true,
+  "redirectionLimit": 100
+}
