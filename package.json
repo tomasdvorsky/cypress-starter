@@ -9,7 +9,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cucumber-html-reporter": "^5.5.0",
     "cypress": "^9.5.2",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "dayjs": "^1.11.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports-cucumber",
+      "filePrefix": "",
+      "fileSuffix": ".json"
+    }
   }
 }
