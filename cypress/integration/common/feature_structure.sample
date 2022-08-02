@@ -1,0 +1,7 @@
+Feature: Short name of what is tested
+
+  More precise description of the test - let's say 3 rows
+
+  @focus
+  Scenario: What is being tested
+    When ...
